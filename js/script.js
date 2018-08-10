@@ -7,7 +7,7 @@ var Tracker = function(sideA, sideB, sideC){
 
 
    if (sideA<=0 || sideB<=0 || sideC<=0) {
-     alert("Length of sides cannot be equal to or less than zero");
+     alert("Length of Triangles cannot be equal to or less than zero");
 
   }
   else if (sideA == sideB && sideB == sideC && sideA == sideC) {
