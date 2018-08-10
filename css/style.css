@@ -1,6 +1,7 @@
 body{
   background-color: #B3E5FC;
 }
+
 .heading{
   text-align: center;
   color: #0277BD;
@@ -8,6 +9,8 @@ body{
 h2.heading{
   font-size: 25px;
 }
+
+
 .column{
   float: left;
   width: 420px;
@@ -18,6 +21,7 @@ h2.heading{
   width: 350px;
 }
 
+
 h3{
   color: #0277BD;
 }
@@ -26,12 +30,15 @@ p{
   font-size: 23px;
 
 }
+
+
 .box{
   clear: both;
   text-align: center;
   border: 1px solid #0277BD;
   margin: 8%;
 }
+
 
 a{
   text-decoration: none;
@@ -41,3 +48,16 @@ h3.box{
   color:  #0277BD;
   font-size: 25px;
 }
+
+/* .button{
+  background-color:#0277BD;    border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   margin: 4px 2px;
+   cursor: pointer;
+
+} */
