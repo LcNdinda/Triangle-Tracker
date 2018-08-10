@@ -1,10 +1,12 @@
 
 var Tracker = function(sideA, sideB, sideC){
-  if (sideA == "" || sideB == "" || sideC == "") {
-    alert("The side of a Triangle cannot be empty")
-  }
+  var sideA = parseFloat(prompt("Enter the length of First side"));
+  var sideB = parseFloat(prompt("Enter the length of Second side"));
+  var sideC = parseFloat(prompt("Enter the length of Third side"));
 
-  else if (sideA<=0 || sideB<=0 || sideC<=0) {
+
+
+   if (sideA<=0 || sideB<=0 || sideC<=0) {
      alert("Length of sides cannot be equal to or less than zero");
 
   }
@@ -31,28 +33,12 @@ var Tracker = function(sideA, sideB, sideC){
 
 }
 
-var length1 = parseInt(prompt("Enter the length of First side"));
-var length2 = parseInt(prompt("Enter the length of Second side"));
-var length3 = parseInt(prompt("Enter the length of Third side"));
-var result = Tracker(length1, length2, length3);
 
 
-var displayTriangle = function(sides){
-  sides.forEach(function(side){
-    alert("The side Entered are: " + side + " .");
+
+var displayTriangle = function(){
+  var arrayLengths = ["Triangle Tracker.", "CLICK ON TRIANGLE TRACKER TO USE THE PROGRAM"];
+  arrayLengths.forEach(function(arrayLengths){
+    alert(arrayLengths);
   })
 }
-
-var arrayLength = ["result.length1", "result.length2", "result.length3"];
-var arrayResult = displayTriangle(arrayLength);
-
-
-//SCALENE TRIANGLE
-// else if (sideA !== sideB && sideB !== sideC && sideA !== sideC ) {
-//   alert("The triangle is a SCALENE")
-// }
-// var TriangleTrackers = sideA.concat(sideB, sideC);
-// TriangleTrackers.split("");
-// TriangleTrackers.forEach(function(TriangleTracker){
-//   alert("The sides: " + TriangleTracker +" kglregelg")
-// })
