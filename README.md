@@ -23,39 +23,39 @@ form an equilateral, isosceles, or scalene triangle or if the sides cannot make 
 ## Behaviour Driven Development
  1. The Program recognizes length set to zero(0) or is less than zero
  
-   **INPUT EXAMPLE** : sideA = 0 sideB = 60 sideC = 30
+   -**INPUT EXAMPLE** : sideA = 0 sideB = 60 sideC = 30
 
-   **OUTPUT EXAMPLE** : Length of sides cannot be equal to or less than zero
+   -**OUTPUT EXAMPLE** : Length of sides cannot be equal to or less than zero
  
  2. The Program recognizes lengths that are Equal
  
-   **INPUT EXAMPLE** : sideA = 60 sideB = 60 sideC = 60
+   -**INPUT EXAMPLE** : sideA = 60 sideB = 60 sideC = 60
 
-   **OUTPUT EXAMPLE**: The Triangle is an EQUILATERAL
+   -**OUTPUT EXAMPLE**: The Triangle is an EQUILATERAL
  
  3. The Program recognizes  two lengths that are Equal
  
- ...**INPUT EXAMPLE** : sideA = 60 sideB = 60 sideC = 30
+   -**INPUT EXAMPLE** : sideA = 60 sideB = 60 sideC = 30
  
- ...**OUTPUT EXAMPLET**: The Triangle is an ISOSCELES
+   -**OUTPUT EXAMPLET**: The Triangle is an ISOSCELES
  
  4. The Program recognizes lengths that are unequal
  
- ...**INPUT EXAMPLE** : sideA = 30 sideB = 40 sideC = 60
+   -**INPUT EXAMPLE** : sideA = 30 sideB = 40 sideC = 60
  
- ...**OUTPUT EXAMPLE**: The triangle is a SCALENE
+   -**OUTPUT EXAMPLE**: The triangle is a SCALENE
  
  5. The Program recognizes lengths that do not form a triangle
  
- ...**INPUT EXAMPLE** : sideA = 50 sideB = 30 sideC = 90
+   -**INPUT EXAMPLE** : sideA = 50 sideB = 30 sideC = 90
  
- ...**OUTPUT EXAMPLE**: This NOT A TRIANGLE
+   -**OUTPUT EXAMPLE**: This NOT A TRIANGLE
  
  6. The Program recognizes empty fields or invalid characters like text
  
- ...**Input** : sideA = a  sideB = "" sideC = 90
+   -**Input** : sideA = a  sideB = "" sideC = 90
  
- ...**OUTPUT EXAMPLE**: TRY AGAIN. EMPTY FIELDS OR WRONG INPUTS
+   -**OUTPUT EXAMPLE**: TRY AGAIN. EMPTY FIELDS OR WRONG INPUTS
  
  ***
  
