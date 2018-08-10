@@ -1,10 +1,12 @@
+
 var Tracker = function(sideA, sideB, sideC){
   if (sideA == "" || sideB == "" || sideC == "") {
     alert("The side of a Triangle cannot be empty")
   }
 
   else if (sideA<=0 || sideB<=0 || sideC<=0) {
-    alert("Length of sides cannot be equal to or less than zero");
+     alert("Length of sides cannot be equal to or less than zero");
+
   }
   else if (sideA == sideB && sideB == sideC && sideA == sideC) {
     alert("The Triangle is an EQUILATERAL")
@@ -14,13 +16,16 @@ var Tracker = function(sideA, sideB, sideC){
     alert("The Triangle is an ISOSCELES");
   }
 
-
   else if ((sideA + sideB < sideC) || (sideA + sideC < sideB) || (sideB + sideC < sideA) ) {
     alert("This NOT A TRIANGLE")
   }
 
-  else {
+  else if ((sideA + sideB > sideC) || (sideA + sideC > sideB) || (sideB + sideC > sideA)) {
     alert("The triangle is a SCALENE")
+  }
+
+  else {
+    alert("TRY AGAIN. EMPTY FIELDS OR WRONG INPUTS")
   }
 
 
@@ -29,11 +34,25 @@ var Tracker = function(sideA, sideB, sideC){
 var length1 = parseInt(prompt("Enter the length of First side"));
 var length2 = parseInt(prompt("Enter the length of Second side"));
 var length3 = parseInt(prompt("Enter the length of Third side"));
-
 var result = Tracker(length1, length2, length3);
+
+
+var displayTriangle = function(sides){
+  sides.forEach(function(side){
+    alert("The side Entered are: " + side + " .");
+  })
+}
+
+var arrayLength = ["result.length1", "result.length2", "result.length3"];
+var arrayResult = displayTriangle(arrayLength);
 
 
 //SCALENE TRIANGLE
 // else if (sideA !== sideB && sideB !== sideC && sideA !== sideC ) {
 //   alert("The triangle is a SCALENE")
 // }
+// var TriangleTrackers = sideA.concat(sideB, sideC);
+// TriangleTrackers.split("");
+// TriangleTrackers.forEach(function(TriangleTracker){
+//   alert("The sides: " + TriangleTracker +" kglregelg")
+// })
