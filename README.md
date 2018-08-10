@@ -23,15 +23,15 @@ form an equilateral, isosceles, or scalene triangle or if the sides cannot make 
 ## Behaviour Driven Development
  1. The Program recognizes length set to zero(0) or is less than zero
  
- ...**INPUT EXAMPLE** : sideA = 0 sideB = 60 sideC = 30
- 
- ...**OUTPUT EXAMPLE** : Length of sides cannot be equal to or less than zero
+   **INPUT EXAMPLE** : sideA = 0 sideB = 60 sideC = 30
+
+   **OUTPUT EXAMPLE** : Length of sides cannot be equal to or less than zero
  
  2. The Program recognizes lengths that are Equal
  
- ...**INPUT EXAMPLE** : sideA = 60 sideB = 60 sideC = 60
- 
- ...**OUTPUT EXAMPLE**: The Triangle is an EQUILATERAL
+   **INPUT EXAMPLE** : sideA = 60 sideB = 60 sideC = 60
+
+   **OUTPUT EXAMPLE**: The Triangle is an EQUILATERAL
  
  3. The Program recognizes  two lengths that are Equal
  
