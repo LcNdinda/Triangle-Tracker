@@ -2,6 +2,39 @@
   text-align: center;
   color: #0277BD;
 }
-h3.heading{
+h2.heading{
+  font-size: 25px;
+}
+.column{
+  float: left;
+  width: 420px;
+  margin-left: 0%;
+ }
+
+.img3{
+  width: 350px;
+}
+
+h3{
+  color: #0277BD;
+}
+p{
+  color: #0277BD;
+  font-size: 23px;
+
+}
+.box{
+  clear: both;
+  text-align: center;
+  border: 1px solid #0277BD;
+  margin: 8%;
+}
+
+a{
+  text-decoration: none;
+}
+
+h3.box{
+  color:  #0277BD;
   font-size: 25px;
 }
