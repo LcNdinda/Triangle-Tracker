@@ -3,9 +3,20 @@ var Tracker = function(sideA, sideB, sideC){
   if (sideA<=0 || sideB<=0 || sideC<=0) {
     alert("Length of sides cannot be equal to or less than zero");
   }
-  else {
-  alert("Enter another number");
+  else if (sideA==sideB && sideB == sideC) {
+    alert("The Triangle is an EQUILATERAL")
+  }
 
+  else if ((sideA == sideB) || (sideB == sideC) || (sideC == sideA)) {
+    alert("The Triangle is an ISOSCELES")
+  }
+
+  else if () {
+
+  }
+
+  else {
+    alert("Try again")
   }
 
 
